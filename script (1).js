@@ -36,9 +36,9 @@ resultado();
 }
 function resultado() {
 let pontos = 0;
-if (respostas[0] != respostas[3]) pontos++;
-if (respostas[1] != respostas[4]) pontos++;
-if (respostas[2] != respostas[5]) pontos++;
+if (respostas[0] != respostas[3] != respostas[6] != respostas[9]) pontos++;
+if (respostas[1] != respostas[4] != respostas[7] != respostas[10]) pontos++;
+if (respostas[2] != respostas[5] != respostas[8]) pontos++;
 let mensagem = "";
 switch (pontos) {
 case 0:
