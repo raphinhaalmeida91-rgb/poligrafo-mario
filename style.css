@@ -1,0 +1,64 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f7f7f7;
+text-align: center;
+margin: 0;
+padding: 20px;
+}
+.jogo {
+background-color: rgb(241, 79, 79);
+max-width: 850px;
+margin: auto;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0 4px 15px #0002;
+}
+h1 {
+color: #ffee56;
+}
+.cenario {
+position: relative;
+margin-top: 20px;
+}
+.cenario img {
+width: 100%;
+max-width: 580px;
+}
+.balao {
+position: absolute;
+top: 5px;
+left: 50%;
+transform: translateX(-50%);
+background-color: #e8eef0;
+border: 2px solid #333;
+border-radius: 15px;
+padding: 12px;
+width: 50%;
+font-size: 16px;
+font-weight: bold;
+}
+select {
+padding: 12px;
+width: 220px;
+border-radius: 8px;
+font-size: 16px;
+}
+button {
+padding: 12px 20px;
+margin: 10px;
+background-color: #ffee56;
+color: rgb(0, 0, 0);
+border: none;
+border-radius: 8px;
+cursor: pointer;
+}
+button:hover {
+background-color: #857a1f;
+}
+#resultado {
+margin-top: 20px;
+}
+#reiniciar {
+display: none;
+background-color: #ffee56;
+}
